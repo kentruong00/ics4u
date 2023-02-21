@@ -1,4 +1,9 @@
 def divide(i, j):
-    if i%j == 0:
-        return True
-    return False
+        return i%j == 0
+        '''
+        arg
+        -- i : integer
+        -- j : integer
+        return
+        -- boolean, return True if i is divisble by j
+        '''
