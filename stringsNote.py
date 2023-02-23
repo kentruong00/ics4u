@@ -32,3 +32,8 @@ newWord = word[2:]
 slicing the string creates a new string from the original word
 newWord is a subset of the original string
 '''
+
+# String casting, any data type can be turned into a string
+'''
+
+'''
