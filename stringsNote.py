@@ -37,3 +37,10 @@ newWord is a subset of the original string
 '''
 
 '''
+def swap(word, num1, num2):
+    #swap two letters, num1 is the index of the first letter and num2 is the index of the second letter
+    before = word[:num1]
+    after = word[num2+1:]
+    between = word[num1+1:num2]
+    return before + word[num2] + between + word[num1] + after
+print(swap('hello',0,4))
