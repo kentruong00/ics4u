@@ -38,16 +38,12 @@ def mode(array: list):
     max = '0'
     if not array:
         return 0
+def factors(num):
+    stopping = int(num**0.5)
+    return 
+def randomGen(low, high, amount):
+    from random import randrange
+    return [randrange(low,high) for _ in range(amount)]
 '''
 hi
 '''
-def sortReverse(word):
-    before = word
-    sorted = ''
-    while before:
-        largest = max(before)
-        sorted += largest
-        before.replace(largest, '')
-    return sorted
-print(sortReverse('hello'))
-
