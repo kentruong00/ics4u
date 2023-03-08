@@ -44,6 +44,16 @@ def factors(num):
 def randomGen(low, high, amount):
     from random import randrange
     return [randrange(low,high) for _ in range(amount)]
+def palindromeThreeDigits():
+    largest = 0
+    for i in range(999,99,-1):
+        for j in range(999,99,-1):
+            arr = list(str(i*j))
+            if arr == arr[::-1] and i*j>largest:
+                largest = i*j
+                max = len(arr)
+    return largest
+print(palindromeThreeDigits())
 '''
 hi
 '''
