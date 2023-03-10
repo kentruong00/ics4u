@@ -34,9 +34,6 @@ newWord is a subset of the original string
 '''
 
 # String casting, any data type can be turned into a string
-'''
-
-'''
 def swap(word, num1, num2):
     #swap two letters, num1 is the index of the first letter and num2 is the index of the second letter
     before = word[:num1]

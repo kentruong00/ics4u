@@ -53,7 +53,14 @@ def palindromeThreeDigits():
                 largest = i*j
                 max = len(arr)
     return largest
-print(palindromeThreeDigits())
 '''
 hi
 '''
+def twoSum(nums, target):
+    dict = {}
+    for i in range(len(nums)):
+        if target - nums[i] in dict:
+            return [dict[nums[i]],i]
+        dict[nums[i]] = i
+    return []
+def maxArea()
