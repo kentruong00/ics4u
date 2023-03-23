@@ -41,3 +41,9 @@ def swap(word, num1, num2):
     between = word[num1+1:num2]
     return before + word[num2] + between + word[num1] + after
 print(swap('hello',0,4))
+def wordRemoval():
+    word = 'hello'
+    for c in word:
+        if c == 'l':
+            word = word.replace('l', ' ', 1)
+    return word

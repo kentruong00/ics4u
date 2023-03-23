@@ -62,5 +62,4 @@ def twoSum(nums, target):
         if target - nums[i] in dict:
             return [dict[nums[i]],i]
         dict[nums[i]] = i
-    return []
-def maxArea()
+    return 
