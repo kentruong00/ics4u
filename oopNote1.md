@@ -8,3 +8,8 @@ class Person():
     
     def __str__():
     return f'Person objected named {self.name}'
+```
+
+## more notes:
+-```class``` is a keyword in python to create a class
+-```__init__``` is a base override
