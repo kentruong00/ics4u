@@ -1,7 +1,6 @@
 # Object oriented programming note #1
 
-```
-    python
+```python
 # example of a class definition in python:
 class Person():
     def __init__(self, name):
