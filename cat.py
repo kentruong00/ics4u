@@ -40,7 +40,7 @@ class Cat:
 
 class ScratchPost:
     def __init__(self): # if 
-        self.health = 10
+        self.health = 10 #attributes do not have to be a parameter, can be created during initialization
     def __str__(self):
         return f'a scratching post, {self.health} health remaining'
     def use(self):
