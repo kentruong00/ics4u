@@ -63,6 +63,7 @@ def twoSum(nums, target):
         if target - nums[i] in dict:
             return [dict[nums[i]],i]
         dict[nums[i]] = i
+<<<<<<< HEAD
 <<<<<<< HEAD:lists.py
     return []
 def maxArea():
@@ -78,3 +79,6 @@ def sortReverse(num):
 =======
     return 
 >>>>>>> 59e32d1d0f5521ec3e6975b7ee25688f45403a28:grade 11 review/lists.py
+=======
+    return 
+>>>>>>> 59e32d1d0f5521ec3e6975b7ee25688f45403a28
