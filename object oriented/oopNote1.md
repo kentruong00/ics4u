@@ -41,4 +41,19 @@ class Person():
 - In python attributes are hidden by using a double underscore
 
 ### Inheritance
-- 
+- child class created from a parent class, has the same attributes and methods, but can be changed into their own class
+- child class can override attributes and methods
+```python
+class ParentClassName:
+	“”” Define Parent Class “””
+	.
+	.
+	.
+
+class InheritanceClass(ParentClassName):
+	“”” Define Inherited Class “””
+
+	def __init__(self, param, param2):
+		ParentClassName.__init__(self, param)
+		self.param2 = param2
+```
