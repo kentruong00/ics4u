@@ -13,3 +13,6 @@ def stringSort(word):
             flag = False
     sorted = ''.join(arr)
     print(sorted)
+
+def wordSort(word):
+    return 1

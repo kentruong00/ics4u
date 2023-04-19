@@ -1,3 +1,4 @@
+from random import randrange
 # operaters create something new, and methods mutate the list
 a_list = [1,2,3,4,5]
 b_list = a_list
@@ -62,5 +63,18 @@ def twoSum(nums, target):
         if target - nums[i] in dict:
             return [dict[nums[i]],i]
         dict[nums[i]] = i
+<<<<<<< HEAD:lists.py
     return []
-def maxArea()
+def maxArea():
+    return
+
+
+def sortReverse(num):
+    arr = [randrange(1,10) for i in range(num)]
+    print (arr)
+    arr.sort()
+    return arr[::-1]
+
+=======
+    return 
+>>>>>>> 59e32d1d0f5521ec3e6975b7ee25688f45403a28:grade 11 review/lists.py
