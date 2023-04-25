@@ -16,7 +16,7 @@ def swap(word: str, num1: int, num2: int):
     #swap two latters of a string given 2 index location, num1 and num2
     # arr = 
     return
-def mean(array: list) -> int:
+def mean(array: list) -> float:
     #return the mean of a list 
     if not array: # if len(arr) == 0, for other languages
         return 0
@@ -63,8 +63,6 @@ def twoSum(nums, target):
         if target - nums[i] in dict:
             return [dict[nums[i]],i]
         dict[nums[i]] = i
-<<<<<<< HEAD
-<<<<<<< HEAD:lists.py
     return []
 def maxArea():
     return
@@ -76,9 +74,3 @@ def sortReverse(num):
     arr.sort()
     return arr[::-1]
 
-=======
-    return 
->>>>>>> 59e32d1d0f5521ec3e6975b7ee25688f45403a28:grade 11 review/lists.py
-=======
-    return 
->>>>>>> 59e32d1d0f5521ec3e6975b7ee25688f45403a28
